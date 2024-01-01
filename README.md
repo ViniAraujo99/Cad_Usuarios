@@ -1,18 +1,18 @@
-#[Cadastro de Usuários]() 
+# [Cadastro de Usuários]() 
 
-##Ferramentas utilizadas: 
+## Ferramentas utilizadas: 
 NextJS / React
 Typescript
 TailwindCSS
 React-Icons
 [Firebase](https://firebase.google.com/?hl=pt) (integração com o banco de dados)
 
-###Descrição do Projeto:
+### Descrição do Projeto:
 Neste projeto é possível realizar o cadastro (somente nome e idade) de usuários, realizar a alteração em caso de erro ou excluir.
 Através do React foram criados os componentes que se adaptam dependendo da forma que você for trabalhar os dados.
 Não foram feitas algumas validações pois não era o foco do projeto, então é possível digitar idades surreias (abaixo de 0 ou acima de 125 [pessoa com a maior idade já registrada faleceu aos 122 anos]).
 
-####Observações:
+#### Observações:
 Para fazer o projeto rodar na sua máquina é necessário criar uma coleção no Firebase chamada de '**clients**':
 ![Tela do Firebase](./public/firebase_exemplo.png "Tela do Firebase")
 
